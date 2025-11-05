@@ -8,6 +8,10 @@
 - **Profesor Prácticas:** Juan Carlos González Quesada
 - **Descripción:** Prácticas, retos y ejercicios resueltos de la asignatura ED
 
+> [!Note]
+> También pueden encontrarse recursos de esta asignatura en 
+> [losdeldgiim.github.io](https://losdeldgiim.github.io)
+
 ## Ejercicios
 
 ### Ejercicios TDA lineales
@@ -37,6 +41,7 @@ Estos son ejercicios más difíciles, la solución no está disponible en prado
 
 ### Ejercicios de examen
 
+- [Parcial grupo C1 listas](/ejercicios/examenes_parciales/examen_listasc1.cpp)
 - [Parcial grupo C3 listas](/ejercicios/examenes_parciales/examen_listasc3.cpp)
 
 ### Ejercicios TDA lineales
