@@ -18,9 +18,8 @@ bool hayMontana(const list<int>& l) {
 
     bool valid; // para comprobar el caso en el que la lista es estrictamente descendente
     list<int>::const_iterator max;
-    list<int>::const_iterator it = l.begin();
-    list<int>::const_iterator prev = it;
-    ++it;
+    list<int>::const_iterator prev = l.cbegin();
+    list<int>::const_iterator it = std::next(prev);
 
     while (it != l.end() && *prev < *it) {
         ++prev;
@@ -42,7 +41,7 @@ bool hayMontana(const list<int>& l) {
  *         TESTS
  ****************************/
 int main() {
-    cout << "=== TEST hayZigZag con assert ===" << endl;
+    cout << "=== TEST hayMontana con assert ===" << endl;
 
     int testNum = 1;
 

@@ -1,6 +1,5 @@
 /**
- * 
- * 
+ * NOTA: esto no está hecho
  */
 
 #include <list>

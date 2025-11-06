@@ -9,9 +9,8 @@ using namespace std;
 bool hayZigZag(const list<int>& L) {
     if (L.size() < 3) return false;
     
-    auto prev = L.begin();
-    auto next = prev;
-    next++;
+    auto prev = L.cbegin();
+    auto next = std::next(prev);
 
     int counter = *prev < *next ? -1 : 1;
 
