@@ -78,8 +78,8 @@ int main() {
     list<int> l = { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
     test_sol(vl, l);
 
-    /*vector<list<int> > VL2={{0,1},{2},{3, 4},{5, 6},{7}};
+    vector<list<int> > VL2={{0,1},{2},{3, 4},{5, 6},{7}};
     list<int> L2={0, 2, 3, 5, 7, 1, 4, 6};
-    test_sol(VL2,L2);*/
+    test_sol(VL2,L2);
 
 }

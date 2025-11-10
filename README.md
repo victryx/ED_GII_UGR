@@ -38,12 +38,22 @@ Estos son ejercicios más difíciles, la solución no está disponible en prado
 1. [Add elements](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_para_practicar/01-add_elements.cpp)
 1. [Suaviza lista](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_para_practicar/02-suaviza_lista.cpp) (No resuelto)
 
-
 ### Ejercicios de examen
+
+#### Primer examen de prácticas
+
+El primer examen de prácticas consiste en un ejercicio que se realiza
+a partir de la [práctica 3](practicas/practica_03/) (`MaxStack` y `MaxQueue`)
+
+- [Ejercicios con MaxQueue](practicas/practica_03/src/cola_max.cpp)
+- [Ejercicios con MaxStack](practicas/practica_03/src/pila_max.cpp)
+
+#### Segundo examen de prácticas (listas de la stl)
 
 - [Parcial grupo C1 listas](/ejercicios/examenes_parciales/examen_listasc1.cpp)
 - [Parcial grupo C2 listas](/ejercicios/examenes_parciales/examen_listasc2.cpp)
 - [Parcial grupo C3 listas](/ejercicios/examenes_parciales/examen_listasc3.cpp)
+- [Parcial grupo D2 listas](/ejercicios/examenes_parciales/examen_listasd2.cpp)
 
 ### Ejercicios TDA lineales
 
@@ -51,6 +61,9 @@ Estos son ejercicios más difíciles, la solución no está disponible en prado
 ## Retos
 
 ## Prácticas
+
+- [Práctica 3](practicas/practica_03/)
+    - Compilar con `cmake .` y `make`
 
 ## Contribuciones
 

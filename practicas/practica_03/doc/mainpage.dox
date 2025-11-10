@@ -1,0 +1,18 @@
+/*! \mainpage Documentación de la práctica 3 (TDA lineales)
+
+# Introducción
+
+Documentación de la práctica 3 de Estructuras de Datos, en esta práctica
+se han implementado dos estructuras de datos, una pila con máximo y una 
+cola con máixmo. Funcionan como una cola y una pila regulares pero contienen
+un elemento adicional que mantiene el elemento máximo de la estructura.
+
+# Ejecutables
+
+Hay dos ejecutables:
+- bin/cola_max (cola_max.cpp)
+- bin/pila_max (pila_max.cpp)
+
+@author []
+@author []
+*/

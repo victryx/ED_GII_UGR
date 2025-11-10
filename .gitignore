@@ -52,3 +52,5 @@ practicas/practica_03/Doxyfile
 practicas/practica_03/CMakeDoxyfile.in
 practicas/practica_03/CMakeDoxygenDefaults.cmake
 practicas/practica_03/Makefile
+**/html/
+**/bin/
