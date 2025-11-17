@@ -12,6 +12,20 @@
 > También pueden encontrarse recursos de esta asignatura en 
 > [losdeldgiim.github.io](https://losdeldgiim.github.io)
 
+> - [teoría](#notas-de-teoría)
+> - [Ejercicios](#notas-de-teoría)
+>   - [TDA lineales](#ejercicios-tda-lineales)
+>     - [TDA lineales](#ejercicios-resueltos)
+>     - [TDA lineales](#ejercicios-para-practicar-1)
+
+## Notas de teoría
+
+Resúmenes de los aspectos más importantes de la teoría de la asignatura
+
+- [Clases Template](teoria/clases_template.md) (TODO)
+- [Árboles binarios](teoria/arboles_binarios.md) (TODO)
+- [Arboles parcialmente ordenados y Heap Sort](teoria/heap.md) (TODO)
+
 ## Ejercicios
 
 ### Ejercicios TDA lineales
@@ -37,6 +51,33 @@ Estos son ejercicios más difíciles, la solución no está disponible en prado
 
 1. [Add elements](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_para_practicar/01-add_elements.cpp)
 1. [Suaviza lista](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_para_practicar/02-suaviza_lista.cpp) (No resuelto)
+1. [Compacta](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_para_practicar/03-compacta.cpp) 
+
+### Ejercicios TDA No lineales
+
+#### Ejercicios resueltos
+
+En clase se han visto estos ejercicios y las soluciones están disponibles en prado
+
+1. [Está en subconjunto](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/01-esta_en_conjunto.cpp)
+1. [Subconjunto propio](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/02-subconjunto_propio.cpp)
+1. [Contiene parejas](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/03-contiene_parejas.cpp)
+1. [Corta map](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/04-corta_map.cpp)
+1. [Contar](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/05-contar.cpp)
+1. [En todos](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/06-en_todos.cpp)
+1. [Mas conectado](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/07-mas_conectado.cpp)
+1. [Solo en dos](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/08-solo_en_dos.cpp)
+1. [Union](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/09-union.cpp)
+1. [Tiene suma constante](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_resueltos/10-tiene_suma_constante.cpp)
+
+#### Ejercicios para practicar
+
+### Ejercicios TDA Árboles
+
+#### Ejercicios resueltos
+
+#### Ejercicios para practicar
+
 
 ### Ejercicios de examen
 
@@ -55,15 +96,18 @@ a partir de la [práctica 3](practicas/practica_03/) (`MaxStack` y `MaxQueue`)
 - [Parcial grupo C3 listas](/ejercicios/examenes_parciales/examen_listasc3.cpp)
 - [Parcial grupo D2 listas](/ejercicios/examenes_parciales/examen_listasd2.cpp)
 
-### Ejercicios TDA lineales
-
+#### Tercer examen de prácticas (árboles)
 
 ## Retos
+
+- [Reto 1](/retos/reto_1_sudoku/). Especificación de un tipo de datos sudoku killer
+- [Reto 2](/retos/reto_2_pila_doble/). Especificación de dos tipos de datos basados en vectores
 
 ## Prácticas
 
 - [Práctica 3](practicas/practica_03/)
     - Compilar con `cmake .` y `make`
+- [Práctica 4 (final)](practicas/practica_04) Cifras y letras
 
 ## Contribuciones
 
