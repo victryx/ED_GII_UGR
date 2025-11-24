@@ -12,19 +12,24 @@
 > También pueden encontrarse recursos de esta asignatura en 
 > [losdeldgiim.github.io](https://losdeldgiim.github.io)
 
-> - [teoría](#notas-de-teoría)
-> - [Ejercicios](#notas-de-teoría)
+> - [Teoría](#teoría)
+> - [Ejercicios](#ejercicios)
 >   - [TDA lineales](#ejercicios-tda-lineales)
 >     - [TDA lineales](#ejercicios-resueltos)
 >     - [TDA lineales](#ejercicios-para-practicar-1)
 
-## Notas de teoría
+## Teoría
 
 Resúmenes de los aspectos más importantes de la teoría de la asignatura
 
+- [STL: Tipos no lineales (set y map)](/notas/stl_no_lineales.md)
+- [Árboles](notas/arboles.md)
+
+<!-- 
 - [Clases Template](teoria/clases_template.md) (TODO)
 - [Árboles binarios](teoria/arboles_binarios.md) (TODO)
 - [Arboles parcialmente ordenados y Heap Sort](teoria/heap.md) (TODO)
+-->
 
 ## Ejercicios
 
@@ -72,6 +77,13 @@ En clase se han visto estos ejercicios y las soluciones están disponibles en pr
 
 #### Ejercicios para practicar
 
+Estos son ejercicios más difíciles
+
+1. [Separa](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_para_practicar/01-separa.cpp)
+1. [Flat](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_para_practicar/02-flat.cpp)
+1. [Conjunto Potencia](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_para_practicar/03-conjunto_potencia.cpp)
+1. [Diferencia Simétrica](/ejercicios/002_ejercicios_TDA_no_lineales/ejercicios_para_practicar/04-diferencia_simetrica)
+
 ### Ejercicios TDA Árboles
 
 #### Ejercicios resueltos
@@ -96,7 +108,14 @@ a partir de la [práctica 3](practicas/practica_03/) (`MaxStack` y `MaxQueue`)
 - [Parcial grupo C3 listas](/ejercicios/examenes_parciales/examen_listasc3.cpp)
 - [Parcial grupo D2 listas](/ejercicios/examenes_parciales/examen_listasd2.cpp)
 
-#### Tercer examen de prácticas (árboles)
+#### Tercer examen de prácticas (set y map de la stl)
+
+- [Parcial grupo C1 set map](/ejercicios/examenes_parciales/examen_setmapc1.cpp)
+- [Parcial grupo C3 set map](/ejercicios/examenes_parciales/examen_setmapc3.cpp)
+
+#### Cuarto examen de prácticas (árboles)
+
+Este examen es un tipo test
 
 ## Retos
 

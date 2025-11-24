@@ -18,6 +18,7 @@
 
 using namespace std;
 
+// NOTE: esto no está acabado
 void desviacion(list<int>::iterator begin, list<int>::iterator end, int &max, int &min, int &dev) {
     --end;
     int min, max = *begin;

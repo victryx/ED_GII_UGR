@@ -1,5 +1,5 @@
 /**
- * Dado un vcector <list<int>> vl, implementar una función:
+ * Dado un vector <list<int>> vl, implementar una función:
  * void interlaced_join(vector< list<int> >&vl, list<int>&l);
  * Que una las listas contenidas en vl en una sola lista l, tomando primero
  * los primeros elementos de las listas en vl, después los segundos, luego
@@ -82,4 +82,5 @@ int main() {
     list<int> L2={0, 2, 3, 5, 7, 1, 4, 6};
     test_sol(VL2,L2);
 
+    return 0;
 }
