@@ -23,7 +23,13 @@
 Resúmenes de los aspectos más importantes de la teoría de la asignatura
 
 - [STL: Tipos no lineales (set y map)](/notas/stl_no_lineales.md)
-- [Árboles](notas/arboles.md)
+
+### Árboles
+
+- [Árboles](notas/arboles.md) (Árboles generales y árboles binarios)
+- [Árboles Parcialmente Ordenados (APO)](notas/arboles-apo.md) (y Heap)
+- [Árboles de Búsqueda Binaria (ABB)](notas/arboles-abb.md)
+- [Árboles AVL](notas/arboles-avl.md)
 
 <!-- 
 - [Clases Template](teoria/clases_template.md) (TODO)
@@ -112,6 +118,7 @@ a partir de la [práctica 3](practicas/practica_03/) (`MaxStack` y `MaxQueue`)
 
 - [Parcial grupo C1 set map](/ejercicios/examenes_parciales/examen_setmapc1.cpp)
 - [Parcial grupo C3 set map](/ejercicios/examenes_parciales/examen_setmapc3.cpp)
+- [Parcial grupo A2 set map](/ejercicios/examenes_parciales/examen_setmapA2.cpp)
 
 #### Cuarto examen de prácticas (árboles)
 
