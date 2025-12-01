@@ -1,5 +1,9 @@
 # Árboles Binarios de Búsqueda
 
+> - Búsqueda, inserción y borrado:
+>   - Promedio $O(log_2(n))$
+>   - Caso peor $O(n)$
+
 Un árbol binario es un ABB si cumple estas condiciones:
 
 - Dado un nodo `x` se cumple que:
@@ -74,7 +78,7 @@ graph TD
     A --> C
 ```
 
-4. (`7`, `14`)
+4. (`7`, `12`)
 
 
 ```mermaid
@@ -95,7 +99,7 @@ graph TD
     C --x G
 ```
 
-- La eficiencia será $O(log_2(n))$ en promedio
+- La eficiencia de la inserción será $O(log_2(n))$ en promedio
 - En el caso peor (conjunto de datos ya ordenado) la eficiencia es $O(n)$
 - El recorrido en **inorden** de un ABB nos da la lista de nodos ordenada de mayor a menor. 
 - Los tipos `set` y `map` de la STL se implementan con una variante balanceada de ABB (las claves del `set` y `map` de la STL siempre están ordenadas)

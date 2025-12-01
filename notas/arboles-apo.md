@@ -1,6 +1,11 @@
 # Árboles binarios parcialmente ordenados
 
-Los **APO** se utilizan para implementar colas con prioridad y para el algoritmo de ordenación **Heap Sort**
+> - Inserción: $O(log_2(n))$
+> - Borrar mínimo: $O(log_2(n))$
+>
+> Heap Sort: $O(n \times log_2(n))$
+
+Los **APO** se utilizan para implementar colas con prioridad y para el algoritmo de ordenación **Heap Sort**.
 
 Un árbol binario es un **APO** si cumple estas condiciones:
 - La etiqueta de cada nodo es menor o igual que las etiquetas de los hijos[^1]
