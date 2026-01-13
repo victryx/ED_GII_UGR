@@ -15,12 +15,19 @@
 > - [Teoría](#teoría)
 > - [Ejercicios](#ejercicios)
 >   - [TDA lineales](#ejercicios-tda-lineales)
->     - [TDA lineales](#ejercicios-resueltos)
->     - [TDA lineales](#ejercicios-para-practicar-1)
+>     - [Ejercicios resueltos](#ejercicios-resueltos)
+>     - [Ejercicios para practicar](#ejercicios-para-practicar-1)
+>   - [TDA no lineales](#ejercicios-tda-no-lineales)
+>   - [TDA árboles](#ejercicios-tda-árboles)
+>   - [Ejercicios de examen](#ejercicios-de-examen)
+> - [Retos](#retos)
+> - [Prácticas]
 
 ## Teoría
 
 Resúmenes de los aspectos más importantes de la teoría de la asignatura
+
+### Tipos no lineales STL
 
 - [STL: Tipos no lineales (set y map)](/notas/stl_no_lineales.md)
 
@@ -31,10 +38,13 @@ Resúmenes de los aspectos más importantes de la teoría de la asignatura
 - [Árboles de Búsqueda Binaria (ABB)](notas/arboles-abb.md)
 - [Árboles AVL](notas/arboles-avl.md)
 
+### Tablas Hash
+
+- [Hash](notas/tablas-hash.md)
+
 <!-- 
 - [Clases Template](teoria/clases_template.md) (TODO)
 - [Árboles binarios](teoria/arboles_binarios.md) (TODO)
-- [Arboles parcialmente ordenados y Heap Sort](teoria/heap.md) (TODO)
 -->
 
 ## Ejercicios
@@ -53,7 +63,7 @@ En clase se han visto estos ejercicios y las soluciones están disponibles en pr
 6. [Multi intersección](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_resueltos/06-multi-interseccion.cpp)
 7. [Repetidos](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_resueltos/07-repetidos.cpp) (No resuelto)
 8. [Orden](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_resueltos/08-orden.cpp)
-9. [Secuenca](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_resueltos/09-secuencia.cpp)
+9. [Secuencia](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_resueltos/09-secuencia.cpp)
 10. [Agrupar iguales](/ejercicios/001_ejercicios_TDA_lineales/ejercicios_resueltos/10-agrupar_iguales.cpp)
 
 #### Ejercicios para practicar
@@ -92,6 +102,9 @@ Estos son ejercicios más difíciles
 
 ### Ejercicios TDA Árboles
 
+En los ejercicios de árboles, no usamos la STL (la STL no implementa árboles), usamos un tipo propio
+del profesor (en `ejercicios/include/003_ejercicios_TDA_arboles/include/bintree)
+
 #### Ejercicios resueltos
 
 #### Ejercicios para practicar
@@ -128,6 +141,7 @@ Este examen es un tipo test
 
 - [Reto 1](/retos/reto_1_sudoku/). Especificación de un tipo de datos sudoku killer
 - [Reto 2](/retos/reto_2_pila_doble/). Especificación de dos tipos de datos basados en vectores
+- [Reto 3](/retos/reto_3_bintree/). Métodos para serializar y deserializar un árbol binario
 
 ## Prácticas
 

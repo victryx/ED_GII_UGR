@@ -45,8 +45,9 @@ graph TD
 - En el árbol anterior, existe un **desequilibrio en el nodo 4**: 
     - `altura(n4->left) = -1` 
     - `altura(n4->right) = 1`
+    - Diferencia de altura de más de 1 (`-1 - 1 = -2 > -1`)
 
-NO es un AVL
+NO es un AVLsdfsdf
 
 Ejemplo equilibrado:
 

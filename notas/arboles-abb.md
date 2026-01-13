@@ -102,6 +102,9 @@ graph TD
 - La eficiencia de la inserción será $O(log_2(n))$ en promedio
 - En el caso peor (conjunto de datos ya ordenado) la eficiencia es $O(n)$
 - El recorrido en **inorden** de un ABB nos da la lista de nodos ordenada de mayor a menor. 
+- **NO** podemos reconstruir un ABB/AVL dado su **Inorden**
+- Podemos reconstruir un ABB/AVL dado su **preorden**
+- Podemos reconstruir un ABB/AVL dado su **postorden**
 - Los tipos `set` y `map` de la STL se implementan con una variante balanceada de ABB (las claves del `set` y `map` de la STL siempre están ordenadas)
 
 ### Borrados

@@ -1,14 +1,15 @@
-# Árboles binarios parcialmente ordenados
+# Árboles Binarios Parcialmente Ordenados
 
-> - Inserción: $O(log_2(n))$
+> - Inserción: $O(log_2(n))$ ^[1]
 > - Borrar mínimo: $O(log_2(n))$
+> - Búsqueda: $O(n)$
 >
 > Heap Sort: $O(n \times log_2(n))$
 
 Los **APO** se utilizan para implementar colas con prioridad y para el algoritmo de ordenación **Heap Sort**.
 
 Un árbol binario es un **APO** si cumple estas condiciones:
-- La etiqueta de cada nodo es menor o igual que las etiquetas de los hijos[^1]
+- La etiqueta de cada nodo es menor o igual que las etiquetas de los hijos[^2]
 - Es un árbol binario **casi completo**
     - tiene todos los niveles completos
     - el último nivel puede tener huecos a la derecha
@@ -85,6 +86,16 @@ Para borrar la raíz:
 - Más rápido que Quicksort en el caso peor, ambos son $O(n \times log_2(n))$
 - Heapsort es preferible si el conjunto de datos es muy dinámico (muchas inserciones y borrados)
 
+Funciona así:
+
+Dado un conjunto de enteros `arr` y un heap vacío `M`
+
+1. Insertamos en `M` todos los elementos de `arr` (construir heap a partir de `arr`)
+2. Borramos la raíz del heap (elemento mínimo)
+3. Repetir paso 2 hasta vaciar el heap
+
+Los elementos se eliminan de `M` de menor a mayor.
+
 <!-- 
 TODO: ejemplo con heap sort
 -->
@@ -96,4 +107,5 @@ TODO: ejemplo con heap sort
 
 
 
-[^1]: menor o igual para un APO-min, mayor o igual para un APO-max. Aquí solo hablamos de APO-min
+[^1]: Si el conjunto de datos insertado YA estaba ordenado, las inserciones se realizan en $O(1)$
+[^2]: Menor o igual para un APO-min, mayor o igual para un APO-max. Aquí solo hablamos de APO-min

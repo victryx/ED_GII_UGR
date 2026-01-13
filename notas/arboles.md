@@ -45,9 +45,10 @@ graph TD
 - Nivel 1: `B` `C`
 - Nivel 2: `D` `E` `F` `G` 
 - Nivel 3: `H` `I` 
-- **Grado**: 2
 - **Ancestros** del nodo `e` = `{b,a}`
 - **Descendientes** del nodo `b` = `{d,e,h,i}`
+- **Grado** del árbol: 2 (máximo número de nodos hijo que tiene cada nodo)
+- **Altura** del árbol: 3 (altura del nodo raíz)
 - Altura(A) = 3
 - Altura(E) = 0
 - Altura(D) = 1
@@ -72,6 +73,8 @@ Longitud 3
 
 La **altura** de un nodo `n` es la longitud del camino más largo desde `n` hasta una hoja.
 
+La **altura** de un árbol es la altura de su nodo raíz
+
 ### Árboles n-arios y árboles binarios
 
 - Un nodo de un árbol n-ario puede tener hasta n subárboles (hijos)
@@ -85,7 +88,7 @@ La **altura** de un nodo `n` es la longitud del camino más largo desde `n` hast
 - **Completo**: Tiene todos los niveles llenos
     - **Casi-completo**: Tiene todos los niveles llenos excepto en el último nivel, que pueden quedar huecos a la derecha
 
-El ejemplo del principio es un árbol binario homogéneo casi-completo
+El `Árbol 1` es un árbol binario homogéneo casi-completo
 
 Un ejemplo de árbol binario completo:
 
@@ -111,9 +114,9 @@ graph TD
 
 Podemos usar algoritmos **recursivos** o **iterativos**
 - Recursivos: **preorden**, **inorden**, **postorden**
-- Iterativos: por niveles, de izquierda a derecha.
+- Iterativos: por niveles, de izquierda a derecha
 
-En estos ejemplos, uso una TDA de árboles simplificado:
+En estos ejemplos, uso un TDA de árboles simplificado:
 
 ```c++
 struct TreeNode {
@@ -146,7 +149,7 @@ void level_order(TreeNode *root) {
 }
 ```
 
-Recorrido del `Arbol 2`: `{ABCDEFG}` 
+Recorrido por niveles del `Arbol 2`: `{ABCDEFG}` 
 
 ### Recorrido en preorden
 
@@ -161,7 +164,7 @@ void preorder(TreeNode *root) {
 
 ```
 
-Recorrido del `Arbol 2`: `{A, B, D, E, C, F, G}`
+Recorrido preorden del `Arbol 2`: `{A, B, D, E, C, F, G}`
 
 ### Recorrido en inorden
 
@@ -175,7 +178,7 @@ void inorder(TreeNode *root) {
 }
 ```
 
-Recorrido del `Arbol 2`: `{D, B, E, A, F, C, G}`
+Recorrido inorden del `Arbol 2`: `{D, B, E, A, F, C, G}`
 
 ### Recorrido en postorden
 
@@ -189,10 +192,16 @@ void postorder(TreeNode *root) {
 }
 ```
 
-Recorrido del `Arbol 2`: `{D, E, B, F, G, C, A}`
+Recorrido postorden del `Arbol 2`: `{D, E, B, F, G, C, A}`
 
 ### Información ancestral
 
 Dados los nodos `n` y `m` de un árbol binario
 - Recorrido en **Preorden**: `n` a la izquierda de `m` => `n` es ancestro de `m`
 - Recorrido en **Postorden**: `n` a la izquierda de `m` => `n`es descendiente de `m`
+
+Para todos los recorridos, los nodos hoja siempre aparecen en el mismo orden relativo.
+
+#### Aplicaciones
+
+- Árboles de expresión (notación polaca, notación polaca inversa)

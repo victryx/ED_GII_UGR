@@ -1,0 +1,78 @@
+/*! \mainpage Documentación de la práctica final (cifras y letras)
+
+# Introducción
+
+Documentación de la práctica final de Estructuras de Datos. La práctica consta
+de dos partes, el problema de las cifras y el problema de las letras.
+
+## Problema de las cifras 
+
+Consiste en un programa que a partir de un conjunto de cifras generado de forma aleatoria,
+consigue un número de 3 cifras concreto a través de operaciones elementales.
+
+Para resolver este problema se utilizan estructuras `set` y funciones recursivas.
+
+Se ha definido la clase `Cifras` para facilitar la resolución del problema.
+
+En el problema de las cifras se han implementado las siguientes mejoras:
+
+1. Los números del juego se generan de forma aleatoria entre 1 y 100, en lugar de sacarlos del conjunto
+2. En el último test, se permite la interacción con el usuario 
+    - puede elegir si jugar con números aleatorios o con los números de la combinación mágica
+    - puede introducir su propia solución
+
+## Problema de las letras
+
+Consiste en un juego en el que dadas una serie de letras escogidas de forma aleatoria,
+el usuario debe formar la palabra de mayor puntuación. El programa comunica al usuario 
+si su solución es válida, y además le muestra otras posibles soluciones de mayor (o igual)
+puntuación.
+
+Se puede jugar en modo puntuación (P) o en modo longitud (L) 
+
+- En modo puntuación, cada letra tiene una puntuación asociada en función de su frecuencia en el diccionario
+- En modo longitud, todas las letras tienen la misma puntuación
+
+Se han definido varios tipos de datos para facilitar la resolución del problema 
+
+- TDA Diccionario 
+- TDA ConjuntoLetras
+- TDA BolsaLetras
+- TDA Letra
+
+<b>Uso</b>
+
+@code{.sh}
+letras [fichero_diccionario] [fichero_letras] [longitud_conjunto] [L|P]
+@endcode
+
+# Ejecutables
+
+Compilar y ejecutar: 
+
+@code{.sh}
+cmake .
+
+make letras # compilar programa de las letras
+make cifras # compilar programa de las cifras
+make doc_doxygen # generar documentación
+
+./bin/letras # ejecutar programa de las letras
+./bin/cifras # ejecutar programa de las cifras
+@endcode
+
+## Programas principales
+
+- bin/letras (letras.cpp). Fichero principal del programa de las letras
+- bin/cifras (cifras.cpp). Fichero principal del programa de las cifras
+
+## Programas de prueba
+
+- bin/test_cantidad_letras (test_cantidad_letras.cpp). Fichero para probar el TDA ConjuntoLetras
+- bin/test_diccionario (test_diccionario.cpp). Fichero para probar el TDA ConjuntoLetras
+
+@author Victoria López
+@author Alejandro Moreno
+
+@date Diciembre 2025
+*/
